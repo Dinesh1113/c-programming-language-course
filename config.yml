@@ -1,0 +1,18 @@
+title: C Programming Language
+description: >-
+  A very interesting course for Learning C Programming Language. Learn C easy
+  and fast with Dinesh
+template:
+  repo: c-programming-language-template
+  name: c-programming-language
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
